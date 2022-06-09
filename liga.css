@@ -1,0 +1,26 @@
+ul {
+  list-style-type: none;
+
+  padding: 3px;
+  overflow: hidden;
+  background-color: #008B8B;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  
+  display: block;
+  color: white;
+  position: relative;
+  padding: 10px 130px;
+  font-size: 26px;
+  text-decoration: MenuText;
+}
+
+li a:hover {
+  background-color: #111;
+}
+

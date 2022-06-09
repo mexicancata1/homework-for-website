@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>SIGN IN</title>
+	<link rel="stylesheet" href="liga.css">
+
+</head>
+<body style="background-image: url('sign.jpg'); background-repeat: no-repeat; background-size: 1500px 800px;">
+
+<ul>
+  <li><a href="index.html">HOME</a></li>
+  <li><a href="sign.html">SIGN IN</a></li>
+  <li><a href="champions.html">CHAMPIONS</a></li>
+  <li><a href="about.html">ABOUT</a></li>
+</ul>
+
+<div style="background-image: url('small.png');background-repeat: no-repeat; background-size: 340px 376px;color:white;padding:100px; height: 40px;width:140px;padding-bottom:235px; margin-left: 520px; border: 2px solid #008B8B; border-radius: 5px; margin-top: 80px;">
+
+	<h1 style="font-size: 40px; text-align: center; font-family: Impact; color: black; margin-top: -80px;">Sign In</h1>
+    <label style="font-size: 25px; text-align: left; font-family: Copperplate; color: black; margin-left: -80px;" for="Text1"><i><b>Enter username:</b></i></label>	
+    <input style="height: 20px; width: 200px; margin-right: 100px; margin-left: -80px; margin-bottom: -500px; margin-top: -20px;"style="" type="text" id="Text1">
+    <br><br><br>
+    <label style="font-size: 25px; text-align: left; font-family: Copperplate; color: black; margin-left: -80px; margin" for="Text2"><i><b>Enter password:</b></i></label>
+	<input style="height: 20px; width: 200px; margin-right: 100px; margin-left: -80px; margin-bottom: -500px; margin-top: -20px;" type="password" id="Text2">
+    <br><br><br><br><br>
+    <button style="margin-top: -100px; margin-bottom: 200px; color:white; background-color:#008B8B; border: 2px solid white; margin-left: 20px; font-family: Impact; font-size: 18px; padding: 5px 20px;" type="button" onclick="AlertMessage()" >SUBMIT</button>
+	
+</div>
+	
+	
+	
+	
+	
+	
+<script >
+
+function AlertMessage(){
+    const a = document.getElementById('Text1').value; 
+    const b = document.getElementById('Text2').value;
+    let d = 'WELCOME!'
+    let n = 'INCORRECT USERNAME OR PASSWORD. PLEASE TRY AGAIN!'
+        if(a === "mexicancata1" && b === "12345"){
+            window.alert(d);
+        }else{
+            window.alert(n);
+        }
+
+    }
+	
+</script> 
+</body>
+</html>
+
